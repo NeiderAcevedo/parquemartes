@@ -5,10 +5,14 @@
  */
 package com.parquemartes.parquemartes.repositorios;
 
+import com.parquemartes.parquemartes.entidades.Carro;
+import com.parquemartes.parquemartes.entidades.Parqueadero;
+import org.springframework.data.jpa.repository.JpaRepository;
+
 /**
  *
  * @author NEIDER
  */
-public class ParqueaderoRepositorio {
+public interface CarroRepositorio extends JpaRepository <Carro, String> {
     
 }
